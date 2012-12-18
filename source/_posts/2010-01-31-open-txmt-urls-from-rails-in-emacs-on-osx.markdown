@@ -3,7 +3,7 @@ layout: post
 title: "Open \"txmt:\" URLs from Rails backtraces using Emacs on OS X"
 date: 2010-01-31
 comments: true
-categories: [Emacs, Mac, OSX, Rails, Textmate]
+categories: [Emacs, Mac, OSX, Rails, Textmate, Ruby]
 ---
 
 When Rails prints a backtrace in HTML, it's helpfully rendered as a
