@@ -10,7 +10,9 @@ Recently I've been on a hacking high, touching a lot of code, and in
 touch with a lot of cool programmers. In retrospect I'm surprised at
 the variety of stuff I've been doing, so I thought I'd write a short
 list.
+
 <!-- more -->
+
 ### Open source
 
 #### Javascript
