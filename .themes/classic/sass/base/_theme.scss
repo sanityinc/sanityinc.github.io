@@ -1,6 +1,7 @@
 $noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png');
 
+$logo-grey: #808080;
 $logo-green: #96f598;
 
 // Main Link Colors
@@ -18,7 +19,7 @@ $article-border: #eeeeee !default;
 $header-bg: #ffffff !default;
 //$header-bg: #333 !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #808080 !default;
+$title-color: $logo-grey !default;
 $subtitle-color: lighten($title-color, 15) !default;
 
 $text-color: #222 !default;
@@ -27,10 +28,10 @@ $type-border: #ddd !default;
 
 /* Navigation */
 //$nav-bg: #ccc !default;
-$nav-bg: #808080 !default;
+$nav-bg: $logo-grey !default;
 $nav-bg-front: image-url('noise.png') !default;
 //$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
-$nav-bg-back: #808080;
+$nav-bg-back: $logo-grey;
 $nav-color: lighten($nav-bg, 38) !default;
 $nav-color-hover: lighten($nav-color, 25) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
