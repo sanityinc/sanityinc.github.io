@@ -17,14 +17,13 @@ direct links to the RDocs for all the gems installed on your system.
 ### Getting it
 
 The program's git repository is here:
-[gemdocindex](http://git.sanityinc.com/?p=gemdocindex.git;a=summary).
+[gemdocindex](https://github.com/purcell/gemdocindex).
 
-Either browse to 'gemdocindex' there and [download the raw
-version](http://git.sanityinc.com/?p=gemdocindex.git;a=blob_plain;f=gemdocindex;hb=master),
-or check out ("clone") the repository as follows:
+Either browse to 'gemdocindex' there and download the raw version, or
+check out ("clone") the repository as follows:
 
 ```bash
-git clone git://git.sanityinc.com/gemdocindex.git
+git clone git://github.com/purcell/gemdocindex.git
 ```
 
 You can then track

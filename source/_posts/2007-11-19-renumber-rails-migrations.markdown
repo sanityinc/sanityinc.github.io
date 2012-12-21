@@ -43,10 +43,8 @@ You can use `script/plugin` to install the plugin:
 % script/plugin install http://rails.sanityinc.com/plugins/renumber_migrations/
 ```
 
-Alternatively, you can download a
-[snapshot](http://git.sanityinc.com/?p=%20renumber_migrations.git;a=snapshot;h=HEAD;sf=tgz)
-from the plugin's
-[git repository](http://git.sanityinc.com/?p=%20renumber_migrations.git;a=summary)
+Alternatively, you can download a snapshot from the plugin's
+[git repository](https://github.com/purcell/renumber_migrations)
 instead (tip: that page has an RSS feed for tracking
 check-ins). Unpack the snapshot tarball under your
 `RAILS_ROOT/vendor/plugins` directory.

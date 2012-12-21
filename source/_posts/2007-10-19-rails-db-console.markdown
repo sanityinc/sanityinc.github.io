@@ -32,13 +32,10 @@ You can use `script/plugin` to install the plugin:
 % script/plugin install http://rails.sanityinc.com/plugins/db_console/
 ```
 
-Alternatively, you can download a
-[snapshot](http://git.sanityinc.com/?p=db_console.git;a=snapshot;h=HEAD;sf=tgz)
-from the plugin's
-[git repository](http://git.sanityinc.com/?p=db_console.git;a=summary)
-instead (tip: that page has an RSS feed for tracking
-check-ins). Unpack the snapshot tarball under your
-`RAILS_ROOT/vendor/plugins` directory.
+Alternatively, you can download a snapshot from the plugin's
+[git repository](https://github.com/purcell/db_console) instead (tip:
+that page has an RSS feed for tracking check-ins). Unpack the snapshot
+tarball under your `RAILS_ROOT/vendor/plugins` directory.
 
 **Update: Edge Rails, as of early May 2008,
 [has `script/dbconsole` instead](http://www.sanityinc.com/articles/rails-gets-new-dbconsole-script),

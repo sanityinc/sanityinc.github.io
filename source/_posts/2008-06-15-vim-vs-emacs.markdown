@@ -25,7 +25,7 @@ extended period, which is exactly what emacs users do.
 So for 8 or 9 years now, I've been a happy emacs user, working with vi
 key bindings all day long, while picking and choosing from emacs' vast
 library of useful extensions. I've got a
-[highly customised](http://git.sanityinc.com/?p=emacs.d.git;a=summary)
+[highly customised](https://github.com/purcell/emacs.d)
 emacs, learned some emacs-lisp, and yet I don't even know the emacs
 key bindings for mark/copy/paste. And when I'm working in a shell, I
 can (and do) drop into vim and still feel completely at home.

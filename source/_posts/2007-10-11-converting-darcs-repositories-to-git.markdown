@@ -62,7 +62,7 @@ Unoriginally dubbed `darcs-to-git`, and written in
 [ruby](http://www.ruby-lang.org/en/), the code can be found (and
 tracked) here:
 
-[http://git.sanityinc.com/darcs-to-git.git](http://git.sanityinc.com/?p=darcs-to-git.git)
+[https://github.com/purcell/darcs-to-git](https://github.com/purcell/darcs-to-git)
 
 `darcs-to-git` inserts tags into the comments of the git commits it
 produces, containing the globally unique darcs patch ID from which the
@@ -90,7 +90,7 @@ welcome.
 
 ### Further reading
 
-- [darcs-to-git repository](http://git.sanityinc.com/?p=darcs-to-git.git)
+- [darcs-to-git repository](https://github.com/purcell/darcs-to-git)
 - [darcs](http://darcs.net/)
 - [git](http://git.or.cz/)
 - [This site](http://www.sanityinc.com/) -- why not
