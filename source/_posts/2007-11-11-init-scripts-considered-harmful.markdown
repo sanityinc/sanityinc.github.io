@@ -55,8 +55,7 @@ Gerrit Pape.
 For the purposes of this article I'll use runit. It is widely
 available, and I personally use the packages for
 [Debian](http://www.debian.org/) and
-[MacPorts](http://www.macports.org/). (I am the maintainer of the
-runit port for the latter.)
+[Homebrew](https://github.com/mxcl/homebrew/).
 
 ### Service directories and scripts
 
@@ -66,7 +65,7 @@ script.  More on those later.
 There are just two key programs in runit.  Firstly, `runsv` supervises
 the process for an individual service.  Service directories themselves
 sit inside a containing directory, and the `runsvdir` program
-supervises that directory, running one child `runsv` processes for the
+supervises that directory, running one child `runsv` process for the
 service in each subdirectory.  Out of the box on Debian, for example,
 an instance of `runsvdir` supervises services in subdirectories of
 `/var/service/`.
