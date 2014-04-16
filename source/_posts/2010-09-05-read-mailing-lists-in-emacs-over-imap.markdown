@@ -23,6 +23,10 @@ case with many mailing lists. As a workaround, we can use [offlineimap](http://w
 to maintain a local copy of our folders. As a side benefit, we can
 then read mail off-line.
 
+*(Update: since this article was written, Gnus IMAP support has
+ improved, so the following steps may or may not be strictly
+ necessary.)*
+
 We can use the excellent [Dovecot](http://www.dovecot.org/) to provide an IMAP interface to that
 local copy so that Gnus can access it; and we can do this without
 configuring Dovecot as a full IMAP server, which would need to run
