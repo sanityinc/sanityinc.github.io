@@ -12,7 +12,7 @@ video of him solving a fun programming problem.
 <!-- more -->
 
 Drew Neil's
-[Peer To Peer](https://transactions.sendowl.com/stores/3240/8577)
+[Peer To Peer](http://peertopeer.io/h/sp1/)
 video series captures the working practices of experts in various
 programming languages, providing viewers with tips, tricks and
 insights.
@@ -33,7 +33,7 @@ find myself enjoying his problem-solving approach and learning a lot.
 
 To see what happened, check out the video:
 
-[![](/images/peertopeer-showreel.png)](https://transactions.sendowl.com/stores/3428/8577)
+[![](/images/peertopeer-showreel.png)](http://peertopeer.io/b/oc1/)
 
 After the session, and having picked up a couple of new tricks from
 Ollie, I even felt inspired to tackle the problem in Haskell
