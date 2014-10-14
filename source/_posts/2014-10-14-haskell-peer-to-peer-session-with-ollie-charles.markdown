@@ -11,9 +11,11 @@ video of him solving a fun programming problem.
 
 <!-- more -->
 
-Drew Neil's [Peer To Peer](http://peertopeer.io) video series captures
-the working practices of experts in various programming languages,
-providing viewers with tips, tricks and insights.
+Drew Neil's
+[Peer To Peer](https://transactions.sendowl.com/stores/3240/8577)
+video series captures the working practices of experts in various
+programming languages, providing viewers with tips, tricks and
+insights.
 
 Each video features a host, who brings along a task and acts as a
 "customer", and a guest, who has to solve the challenge in real time
@@ -31,9 +33,9 @@ find myself enjoying his problem-solving approach and learning a lot.
 
 To see what happened, check out the video:
 
-[![](/images/peertopeer-showreel.png)](http://peertopeer.io)
+[![](/images/peertopeer-showreel.png)](https://transactions.sendowl.com/stores/3428/8577)
 
 After the session, and having picked up a couple of new tricks from
-Ollie, I even felt inspired to tackle the problem in Haskell once more
-myself.
+Ollie, I even felt inspired to tackle the problem in Haskell
+[once more](https://github.com/purcell/wordchainsrevenge) myself.
 
