@@ -245,6 +245,8 @@ task :rsync do
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
   puts "## Deploying website via Rsync"
+  system("find #{public_dir} -type d -exec chmod a+x '{}' \\;")
+  system("chmod -R a+r #{public_dir}")
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{rsync_args} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
 end
 
