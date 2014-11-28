@@ -39,3 +39,5 @@ After the session, and having picked up a couple of new tricks from
 Ollie, I even felt inspired to tackle the problem in Haskell
 [once more](https://github.com/purcell/wordchainsrevenge) myself.
 
+*Update: there's also a great [follow-up video](http://peertopeer.io/c/jw1)
+featuring Ollie hosting John Wiegley*
