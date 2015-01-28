@@ -1,23 +1,33 @@
 ---
 layout: page
-title: About
+title: "About me"
 comments: false
 sharing: false
 footer: true
 ---
 
-Steve offers
-[Rails training and contract development services](/rails-consulting)
-from a base in Chester, UK. His personal Rails projects include a
-[baby blog site](http://sproglogs.com/) and a
-[celebrity charity news site](http://www.looktothestars.org/), both
-entirely built by a team of one. See
-[Steve's profile at Working With Rails for more info](http://workingwithrails.com/person/4844-steve-purcell).
+I'm an extremely effective "full-stack" and "polyglot" software
+engineer and leader, focusing particularly on modern web
+technologies. With 20 years of hands-on industry experience I
+understand how to select, build and refine software to add business
+value, and to reduce costs.
 
-Steve was a presenter at the 2005 European Ruby Conference, and
-co-organised a
-[Rails training course in Munich, Germany](http://www.germanyonrails.com). He
-has had various patches accepted into the Rails core, and his
-Ruby/Rails experience comes on top of 11 years of Python, C++, Perl
-and Java in various internet start-ups and top companies such as TIBCO
-and ThoughtWorks, in technical positions extending to CTO level.
+You can hire me to lead your software team, solve hard programming
+problems, advise you on technology choices, or coach your developers
+using the latest industry practices and tools.
+
+I've worked as a senior consultant at elite companies such as
+ThoughtWorks, and consulted independently with industry-leading
+businesses both in the UK and overseas, but web start-ups are my real
+passion: I've started some, led development at several others, and
+consulted with yet more.
+
+Areas of particular technical expertise and interest currently include
+front and back-end web development, [Ruby on Rails](/rails-consulting), Clojure,
+Javascript, Linux, PostgreSQL and Haskell, but I have a high level of
+knowledge across a very wide range of languages and open source
+technologies. With my fingers in many pies, I'm often among the 100 most
+active worldwide contributors on [Github](https://github.com/purcell).
+
+For more info, see my [LinkedIn profile](http://www.linkedin.com/in/stevepurcell)
+or feel free to [drop me an email](mailto:steve@sanityinc.com).
