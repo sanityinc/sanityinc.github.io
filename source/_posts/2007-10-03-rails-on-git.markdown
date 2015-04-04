@@ -176,7 +176,7 @@ maintain them; git can regenerate your patches automatically as the
 surrounding Rails code changes. A follow-up article on this site will
 describe how to do this.
 
-### Futher reading
+### Further reading
 
 - [Git documentation](http://git.or.cz/gitwiki/GitDocumentation)
 - This site -- why not
