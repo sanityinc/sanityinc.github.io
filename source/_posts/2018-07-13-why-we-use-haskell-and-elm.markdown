@@ -32,7 +32,7 @@ Some functionality of our system, such as managing users and access control, is 
 
 ## Haskell for expressing complex behaviour
 
-Haskell has excellent libraries for integrating with databases and web services, and for building API services. Our systems pass all of their geographic data through an API server written in Haskell, and not only must this server must be reliable and fast, it must also be possible to evolve its design rapidly as we discover new requirements without breaking existing code.
+Haskell has excellent libraries for integrating with databases and web services, and for building API services. Our systems pass all of their geographic data through an API server written in Haskell, and not only must this server be reliable and fast, it must also be possible to evolve its design rapidly as we discover new requirements without breaking existing code.
 
 Even when we make dramatic changes, Haskell's language design and its development tools tell us if those changes are inconsistent with the existing design, and they require that we eliminate those inconsistencies. Those same tools help us to be confident that we are correctly handling all the possible inputs and outputs, which we model with Haskell's advanced datatype system. The tools force us to consider every possible failure case, so that our programs will handle them appropriately.
 
