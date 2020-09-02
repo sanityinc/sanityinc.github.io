@@ -1,0 +1,15 @@
+---
+# Jekyll needs front matter for SCSS files
+---
+
+$sidebar-bg-color: white;
+$sidebar-fg-color: #202020;
+$sidebar-sticky: false;
+$layout-reverse: false;
+$link-color: darken(#99ff99, 50%);
+@import "hydeout";
+
+
+#sidebar .site-title, h1, h2, h3, h4, h5, h6 {
+    font-family: $code-font-family;
+}

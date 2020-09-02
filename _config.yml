@@ -21,10 +21,7 @@
 title: sanity, inc.
 email: steve@sanityinc.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I’m Steve Purcell - Sanity, Inc. is my one-man consultancy
-  and software house.
-
-  I’m on a mission to bring more software sanity into the world.
+   Simple thinking for complex software.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sanityinc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sanityinc
