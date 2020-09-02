@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+jekyll build
+(cd _site && ln -s feed.xml atom.xml)
+rsync -rav --delete _site/. sanityinc@purcellpeople.com:www/.
