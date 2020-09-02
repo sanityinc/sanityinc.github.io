@@ -5,3 +5,4 @@ set -e
 jekyll build
 (cd _site && ln -s feed.xml atom.xml)
 rsync -rav --delete _site/. sanityinc@purcellpeople.com:www/.
+ssh sanityinc@purcellpeople.com chmod -R a+r www
