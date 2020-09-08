@@ -13,3 +13,7 @@ $link-color: darken(#99ff99, 50%);
 #sidebar .site-title, h1, h2, h3, h4, h5, h6 {
     font-family: $code-font-family;
 }
+
+#sidebar .site-title a {
+    color: $link-color;
+}
