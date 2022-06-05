@@ -29,5 +29,5 @@ knowledge across a very wide range of languages and open source
 technologies. With my fingers in many pies, I'm often among the 100 most
 active worldwide contributors on [Github](https://github.com/purcell).
 
-For more info, see my [LinkedIn profile](http://www.linkedin.com/in/stevepurcell)
+For more info, see my [LinkedIn profile](https://www.linkedin.com/in/stevepurcell)
 or feel free to [drop me an email](mailto:steve@sanityinc.com).

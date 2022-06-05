@@ -31,7 +31,7 @@ processes, in a hierarchy extending up to the "master" UNIX process
 with PID 1, typically `init`.
 
 (The process supervision pattern is long-established, and is even
-built into the programming language [Erlang](http://www.erlang.org/),
+built into the programming language [Erlang](https://www.erlang.org/),
 which is used for ultra-reliable telecoms applications.)
 
 It's possible to replace all init scripts with supervised processes,
@@ -43,18 +43,18 @@ services.
 ### Daemontools and runit
 
 Dan Bernstein (of qmail fame) wrote the seminal process supervision
-toolkit [daemontools](http://cr.yp.to/daemontools.html), which is a
+toolkit [daemontools](https://cr.yp.to/daemontools.html), which is a
 beautifully-designed set of small, ultra-reliable and
 highly-specialised programs that cooperate in the UNIX tradition to
 manage process supervision trees.
 
-[Runit](http://smarden.org/runit/) is a more conveniently licensed and
+[Runit](https://smarden.org/runit/) is a more conveniently licensed and
 more actively maintained reimplementation of daemontools, written by
 Gerrit Pape.
 
 For the purposes of this article I'll use runit. It is widely
 available, and I personally use the packages for
-[Debian](http://www.debian.org/) and
+[Debian](https://www.debian.org/) and
 [Homebrew](https://github.com/mxcl/homebrew/).
 
 ### Service directories and scripts
@@ -240,7 +240,7 @@ the status of service processes by pointing them at the PID files.
 Sometimes people run applications as root simply because they need to
 listen on privileged ports (ie. ports below 1024).  If you need such a
 port, you can still run your application as an unprivileged service;
-consider using iptables or a tcp proxy like [pen](http://siag.nu/pen/)
+consider using iptables or a tcp proxy like [pen](https://siag.nu/pen/)
 to proxy that port through to your unprivileged runit services
 listening on unprivileged ports.
 
@@ -248,5 +248,5 @@ listening on unprivileged ports.
 
 If you found this article helpful, or want to read my forthcoming
 article about reliably running
-[Ruby on Rails](http://www.rubyonrails.org/) applications using runit,
-please [subscribe to my feed](http://www.sanityinc.com/rss.xml).
+[Ruby on Rails](https://www.rubyonrails.org/) applications using runit,
+please [subscribe to my feed](/rss.xml).

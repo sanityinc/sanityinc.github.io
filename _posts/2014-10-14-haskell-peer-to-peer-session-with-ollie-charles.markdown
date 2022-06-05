@@ -12,7 +12,7 @@ video of him solving a fun programming problem.
 <!-- more -->
 
 Drew Neil's
-[Peer To Peer](http://peertopeer.io/h/sp1/)
+[Peer To Peer](https://peertopeer.io/h/sp1/)
 video series captures the working practices of experts in various
 programming languages, providing viewers with tips, tricks and
 insights.
@@ -23,7 +23,7 @@ using their tools of choice.
 
 For this video, in which I was the host, I proposed that Ollie tackle
 Dave Thomas'
-[Word Chains Kata](http://codekata.com/kata/kata19-word-chains/) -- I
+[Word Chains Kata](https://codekata.com/kata/kata19-word-chains/) -- I
 use this non-trivial problem myself whenever I learn a new programming
 language, so I knew that it would keep Ollie on his toes.
 
@@ -33,11 +33,11 @@ find myself enjoying his problem-solving approach and learning a lot.
 
 To see what happened, check out the video:
 
-[![](/images/peertopeer-showreel.png)](http://peertopeer.io/b/oc1/)
+[![](/images/peertopeer-showreel.png)](https://peertopeer.io/b/oc1/)
 
 After the session, and having picked up a couple of new tricks from
 Ollie, I even felt inspired to tackle the problem in Haskell
 [once more](https://github.com/purcell/wordchainsrevenge) myself.
 
-*Update: there's also a great [follow-up video](http://peertopeer.io/c/jw1)
+*Update: there's also a great [follow-up video](https://peertopeer.io/c/jw1)
 featuring Ollie hosting John Wiegley*

@@ -14,7 +14,7 @@ URLs open in Emacs instead.
 <!-- more -->
 
 First, get a copy of Daisuke Murase's
-[emacs-handler](http://github.com/typester/emacs-handler) project
+[emacs-handler](https://github.com/typester/emacs-handler) project
 using git or by downloading a tarball.
 
 Then apply the following patch:
@@ -35,7 +35,7 @@ index 1880412..deb1fa4 100644
 ```
 
 Alternatively, you can just check out
-[my clone of emacs-handler](http://github.com/purcell/emacs-handler),
+[my clone of emacs-handler](https://github.com/purcell/emacs-handler),
 which has the above patch built-in.
 
 Finally, open the project in Xcode, and build it. Fire up the

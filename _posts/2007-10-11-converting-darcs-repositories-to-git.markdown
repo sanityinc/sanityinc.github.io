@@ -12,16 +12,16 @@ In this article I discuss techniques for migrating source code repositories from
 
 ### Background
 
-I've been a big fan of [darcs](http://darcs.net) for over two years,
+I've been a big fan of [darcs](https://darcs.net) for over two years,
 and have used it exclusively for my personal projects. However, in
 recent times I have been increasingly drawn in by the community and
-toolset that is growing around [git](http://git.or.cz/), and I've
+toolset that is growing around [git](https://git.or.cz/), and I've
 naturally wanted to migrate some of my darcs repositories to git.
 
 ### darcs2git
 
 The first tool I tried,
-[darcs2git](http://repo.or.cz/w/darcs2git.git), uses a low-level git
+[darcs2git](https://repo.or.cz/w/darcs2git.git), uses a low-level git
 component called git-fast-import to efficiently slurp data into git,
 but when I tried to use it with the latest git at the time of writing,
 git-fast-import choked on the binary data passed to it by
@@ -29,7 +29,7 @@ darcs2git. Game over.
 
 ### Tailor
 
-[Tailor](http://progetti.arstecnica.it/tailor/), the Swiss Army Knife
+[Tailor](https://progetti.arstecnica.it/tailor/), the Swiss Army Knife
 of inter-VCS synchronisation, has helped me several times in the past
 to migrate 80% of one VCS' contents into a new VCS-*du-jour*,
 ultimately leading me to abandon it or file bug reports. Your mileage
@@ -59,7 +59,7 @@ active darcs repository, which would allow it to be used for maintaining
 public git mirrors of darcs repositories.
 
 Unoriginally dubbed `darcs-to-git`, and written in
-[ruby](http://www.ruby-lang.org/en/), the code can be found (and
+[ruby](https://www.ruby-lang.org/), the code can be found (and
 tracked) here:
 
 [https://github.com/purcell/darcs-to-git](https://github.com/purcell/darcs-to-git)
@@ -91,8 +91,8 @@ welcome.
 ### Further reading
 
 - [darcs-to-git repository](https://github.com/purcell/darcs-to-git)
-- [darcs](http://darcs.net/)
-- [git](http://git.or.cz/)
-- [This site](http://www.sanityinc.com/) -- why not
-    [subscribe to future articles?](http://www.sanityinc.com/rss.xml)
+- [darcs](https://darcs.net/)
+- [git](https://git.or.cz/)
+- [This site](/) -- why not
+    [subscribe to future articles?](/rss.xml)
 

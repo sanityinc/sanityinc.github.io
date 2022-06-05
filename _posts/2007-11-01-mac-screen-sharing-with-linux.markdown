@@ -18,12 +18,12 @@ same ease.
 
 In the new "Shared" section of the Finder's sidebar, the listed
 servers are actually those that advertise interesting services on the
-local network via [Bonjour](http://apple.com/bonjour) (a.k.a. ZeroConf
+local network via [Bonjour](https://apple.com/bonjour) (a.k.a. ZeroConf
 or mDNS).
 
 My home Linux server (running Debian unstable) was advertising its AFP
 network file volumes using ZeroConf thanks to a bit of prior
-[Avahi](http://avahi.org/) configuration, so it showed up
+[Avahi](https://avahi.org/) configuration, so it showed up
 automatically in my Leopard Finder.
 
 I run a VNC server on that Linux machine, which happens to listen on

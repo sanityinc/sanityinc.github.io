@@ -7,16 +7,16 @@ categories: [CSS, Javascript, JQuery]
 ---
 
 I'm a big fan of
-[grid-based layouts](http://del.icio.us/popular/grids), particularly
+[grid-based layouts](https://del.icio.us/popular/grids), particularly
 using CSS frameworks like
-[YUI](http://developer.yahoo.com/yui/grids/). For all their apparent
+[YUI](https://developer.yahoo.com/yui/grids/). For all their apparent
 conflict with the ideals of semantic markup, these frameworks save a
 ton of time.
 
 My current favourite is
-[Blueprint CSS](http://developer.yahoo.com/yui/grids/), which I used
+[Blueprint CSS](https://developer.yahoo.com/yui/grids/), which I used
 for the recent redesign of our
-[celebrity charity news site](http://www.looktothestars.org/), and I
+[celebrity charity news site](https://www.looktothestars.org/), and I
 found a neat way to toggle the positioning grid on and off with a
 bookmarklet instead of by changing the site's HTML templates.
 
@@ -28,7 +28,7 @@ element with the class "container"; adding the additional class
 design-time when working on aligning everything nicely to the grid.
 
 Here's the trivial bookmarklet for if you're already using
-[jQuery](http://jquery.com/) on your site (and you should be):
+[jQuery](https://jquery.com/) on your site (and you should be):
 [Toggle BP Grid](javascript:void($('.container').toggleClass('showgrid'));).
 
 With the grid off, here's what you might see:
@@ -39,6 +39,6 @@ And with a quick click of the bookmarklet, you would see this:
 
 ![](/images/blueprint-grid-on.png)
 
-And if you're not using [jQuery](http://jquery.com/), here's the same
+And if you're not using [jQuery](https://jquery.com/), here's the same
 bookmarklet with a hook to load jQuery into your page first:
-[Toggle BP Grid](javascript:void((function(){var%20s=document.createElement('script');s.setAttribute('src','http://jquery.com/src/jquery-latest.js');document.getElementsByTagName('body')[0].appendChild(s);void(s);$('.container').toggleClass('showgrid');})())).
+[Toggle BP Grid](javascript:void((function(){var%20s=document.createElement('script');s.setAttribute('src','https://jquery.com/src/jquery-latest.js');document.getElementsByTagName('body')[0].appendChild(s);void(s);$('.container').toggleClass('showgrid');})())).

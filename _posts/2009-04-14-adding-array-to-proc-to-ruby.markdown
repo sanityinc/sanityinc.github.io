@@ -54,6 +54,6 @@ What do you think? Handy? Disgusting? Leave a comment to let me know!
 
 *Update: apparently others have had
 [similar](https://rails.lighthouseapp.com/projects/8994/tickets/1253-arrayto_proc)
-[ideas](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/199820),
+[ideas](https://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/199820),
 but with different semantics. So perhaps this trick is a little too
 opaque...*

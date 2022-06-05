@@ -19,7 +19,7 @@ mailing lists.
 Nowadays most people read mailing lists via IMAP-enabled mail
 accounts, e.g. Gmail. Gnus supports IMAP directly, but it doesn't work
 well when the remote folders have thousands of messages, as is the
-case with many mailing lists. As a workaround, we can use [offlineimap](http://wiki.github.com/jgoerzen/offlineimap/)
+case with many mailing lists. As a workaround, we can use [offlineimap](https://wiki.github.com/jgoerzen/offlineimap/)
 to maintain a local copy of our folders. As a side benefit, we can
 then read mail off-line.
 
@@ -27,12 +27,12 @@ then read mail off-line.
  improved, so the following steps may or may not be strictly
  necessary.)*
 
-We can use the excellent [Dovecot](http://www.dovecot.org/) to provide an IMAP interface to that
+We can use the excellent [Dovecot](https://www.dovecot.org/) to provide an IMAP interface to that
 local copy so that Gnus can access it; and we can do this without
 configuring Dovecot as a full IMAP server, which would need to run
 constantly and be configured for authentication etc.
 
-On a Mac, you can install dovecot and offlineimap with [Homebrew](http://github.com/mxcl/homebrew),
+On a Mac, you can install dovecot and offlineimap with [Homebrew](https://github.com/mxcl/homebrew),
 MacPorts or, presumably, Fink.
 
 In `~/.dovecotrc`:
@@ -72,7 +72,7 @@ folderfilter = lambda foldername: re.search("^Lists\.", foldername)
 Now, simply running "offlineimap" should sync your mailing lists into
 `~/Library/Caches/OfflineImap`. (You'll need to do this regularly,
 e.g. before and after reading your lists. Julien Danjou recently wrote
-[a nice elisp wrapper for offlineimap](http://julien.danjou.info/offlineimap-el.html).)
+[a nice elisp wrapper for offlineimap](https://julien.danjou.info/offlineimap-el.html).)
 
 All that remains is to tell Gnus how to access your local mail cache.
 
@@ -95,6 +95,6 @@ suit your own preferences.
 
 Further reading
 
-- [GNUS and Gmail setup for dummies - covers configuring Gnus to send mail over SMTP](http://bc.tech.coop/blog/070813.html)
-- [Sacha Chua's guide to Gnus + Offlineimap + Gmail - the source for much of this article](http://sachachua.com/blog/2008/05/geek-how-to-use-offlineimap-and-the-dovecot-mail-server-to-read-your-gmail-in-emacs-efficiently/)
-- [Gnus homepage](http://www.gnus.org/)
+- [GNUS and Gmail setup for dummies - covers configuring Gnus to send mail over SMTP](https://bc.tech.coop/blog/070813.html)
+- [Sacha Chua's guide to Gnus + Offlineimap + Gmail - the source for much of this article](https://sachachua.com/blog/2008/05/geek-how-to-use-offlineimap-and-the-dovecot-mail-server-to-read-your-gmail-in-emacs-efficiently/)
+- [Gnus homepage](https://www.gnus.org/)

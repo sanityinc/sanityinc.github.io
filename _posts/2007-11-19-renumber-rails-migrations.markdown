@@ -40,7 +40,7 @@ To be able to use this plugin, you must:
 You can use `script/plugin` to install the plugin:
 
 ```bash
-% script/plugin install http://rails.sanityinc.com/plugins/renumber_migrations/
+% script/plugin install https://rails.sanityinc.com/plugins/renumber_migrations/
 ```
 
 Alternatively, you can download a snapshot from the plugin's
@@ -52,4 +52,4 @@ check-ins). Unpack the snapshot tarball under your
 ### More
 
 If you like the look of this plugin, why not
-[subscribe to my feed](http://www.sanityinc.com/rss.xml)?
+[subscribe to my feed](/rss.xml)?

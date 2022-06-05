@@ -26,4 +26,4 @@ UNIX users will note that the syntax echoes that of sed, awk, perl, vi
 and other tools, and the "s/old/new/" idiom is commonly used in
 geek-to-geek chats.
 
-*(Credit to my colleague and fellow [Ruby on Rails consultant Stefan Kaes](http://railsexpress.de/) for noticing this.)*
+*(Credit to my colleague and fellow [Ruby on Rails consultant Stefan Kaes](https://railsexpress.de/) for noticing this.)*

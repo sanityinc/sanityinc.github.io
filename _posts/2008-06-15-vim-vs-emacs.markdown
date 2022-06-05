@@ -6,8 +6,8 @@ comments: true
 categories: [Emacs, Vim, Unix]
 ---
 
-I often hear the proponents of [vim](http://www.vim.org/) and
-[emacs](http://www.gnu.org/software/emacs/) discussing which is
+I often hear the proponents of [vim](https://www.vim.org/) and
+[emacs](https://www.gnu.org/software/emacs/) discussing which is
 better, usually pitting emacs' extensibility against vi's archaic yet
 arguably effective and tendon-friendly scheme of editing modes.
 
@@ -16,8 +16,8 @@ But why choose?
 <!-- more -->
 
 I love the "vi way". I was a die-hard vim user until I realised that,
-with [some](http://www.emacswiki.org/cgi-bin/wiki/ViperMode)
-[customisation](http://www.emacswiki.org/cgi-bin/wiki/vimpulse.el),
+with [some](https://www.emacswiki.org/cgi-bin/wiki/ViperMode)
+[customisation](https://www.emacswiki.org/cgi-bin/wiki/vimpulse.el),
 **emacs can *be* vim**. After all, many advanced vim users end up
 working with multiple windows, and keeping their vims running for an
 extended period, which is exactly what emacs users do.
@@ -35,4 +35,4 @@ and entering `viper-mode`. That's built into every emacs you're likely
 to encounter. To get vim-specific features such as `control-n`/`p`
 expansion, window splitting, and rectangular selections, follow the
 instructions that
-[come with vimpulse](http://www.emacswiki.org/cgi-bin/wiki/vimpulse.el).
+[come with vimpulse](https://www.emacswiki.org/cgi-bin/wiki/vimpulse.el).

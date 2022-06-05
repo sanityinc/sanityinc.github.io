@@ -6,7 +6,7 @@ categories: [Rails, Ruby]
 ---
 
 Our big
-[celebrity charity news site](http://www.looktothestars.org/) runs
+[celebrity charity news site](https://www.looktothestars.org/) runs
 on Rails, and I've just switched all the view code from erb to haml. I
 cut the total number of lines of view code from 2370 to 1788, which
 makes for a saving of 25%.
@@ -65,7 +65,7 @@ and in HAML:
 ```
 
 Haml's just seen its
-[2.0 release](http://nex-3.com/posts/76-haml-2-0), it's approximately
+[2.0 release](https://nex-3.com/posts/76-haml-2-0), it's approximately
 as fast as Erb, and the error messages are really pretty good
 now. (Occasionally I left a trailing `%>`, or forgot to indent after
 an `- if ...`, and these produced slightly obscure error messages.)

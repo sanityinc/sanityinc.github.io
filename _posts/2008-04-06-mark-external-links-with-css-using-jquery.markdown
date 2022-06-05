@@ -11,7 +11,7 @@ different colour?  Well, you'll want to give all those `a` tags a
 CSS class, and style them up accordingly.  In this article I present
 an easy way to do this without directly altering all the links in your
 application, exactly as I implemented it on this
-[popular celebrity charity news site](http://www.looktothestars.org/).
+[popular celebrity charity news site](https://www.looktothestars.org/).
 
 <!-- more -->
 
@@ -19,14 +19,14 @@ application, exactly as I implemented it on this
 
 While us denizens of the Rails world have been using the Prototype
 javascript library for years, great alternative libraries have become
-popular. Among them, [jQuery](http://jquery.com/) is the reigning king.
+popular. Among them, [jQuery](https://jquery.com/) is the reigning king.
 jQuery is particularly good at selecting multiple parts of an HTML
 document and manipulating them en-masse, but Rails needs Prototype, both
 libraries weight in at over 120kb in total, and the two don't live
 happily together anyway.
 
 Thanks to Aaron Eisenberger's nifty
-[jRails plugin](http://ennerchi.com/projects/jrails), though, we can
+[jRails plugin](https://ennerchi.com/projects/jrails), though, we can
 evict Prototype from our Rails applications and use the shiny new
 jQuery toys instead.
 
@@ -34,7 +34,7 @@ jQuery toys instead.
 
 Let's define an external link as an `a` with an href attribute
 pointing to an 'http' URL that doesn't start with the current site's
-full base URL. Playing in [Firebug](http://www.getfirebug.com/)'s
+full base URL. Playing in [Firebug](https://www.getfirebug.com/)'s
 console, we can try to find these elements using jQuery. First, the http
 links:
 
@@ -43,10 +43,10 @@ links:
 111
 ```
 
-Now, skip the links to the current site, which I'm running at "http://localhost:3000":
+Now, skip the links to the current site, which I'm running at "https://localhost:3000":
 
 ```javascript
->>> $('a[href]').filter("[href^=http]").not("[href^=http://localhost:3000]").size()
+>>> $('a[href]').filter("[href^=http]").not("[href^=https://localhost:3000]").size()
 9
 ```
 
@@ -54,7 +54,7 @@ I (personally) don't want to do anything to links containing images, and
 I can skip those as follows:
 
 ```javascript
->>> $('a[href]').filter("[href^=http]").not("[href^=http://localhost:3000]").not(":has('img')").size()
+>>> $('a[href]').filter("[href^=http]").not("[href^=https://localhost:3000]").not(":has('img')").size()
 2
 ```
 
@@ -62,7 +62,7 @@ Excellent! And it's possible to specify all of that in one jQuery
 selector, which looks like this:
 
 ```javascript
->>> $('a[href^=http]:not("[href^=http://localhost:3000]"):not(":has(\'img\')")').size()
+>>> $('a[href^=http]:not("[href^=https://localhost:3000]"):not(":has(\'img\')")').size()
 2
 ```
 
@@ -100,8 +100,8 @@ a.external {
 
 #### More
 
--   [See the technique in action](http://www.looktothestars.org/)
--   [Subscribe to read more articles like this](http://www.sanityinc.com/rss.xml)
--   [jQuery homepage](http://jquery.com/)
--   [jRails plugin](http://ennerchi.com/projects/jrails)
+-   [See the technique in action](https://www.looktothestars.org/)
+-   [Subscribe to read more articles like this](/rss.xml)
+-   [jQuery homepage](https://jquery.com/)
+-   [jRails plugin](https://ennerchi.com/projects/jrails)
 

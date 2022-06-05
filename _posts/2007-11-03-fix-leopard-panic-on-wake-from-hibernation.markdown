@@ -31,7 +31,7 @@ waking up properly from hibernation.
 ### Solution
 
 A little Googling led me to
-[this page](http://matt.ucc.asn.au/apple/machibernate.html), which
+[this page](https://matt.ucc.asn.au/apple/machibernate.html), which
 mentions that there are distinct "encrypted" and "unencrypted"
 hibernate modes, that the default mode is "encrypted", and that
 problems can occur when secure virtual memory is hibernated into a

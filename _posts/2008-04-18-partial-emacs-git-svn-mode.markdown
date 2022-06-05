@@ -8,7 +8,7 @@ categories: [Emacs, Git, Subversion]
 
 Interacting with git from within emacs is a pleasure, thanks to the
 official git-mode and Leah Neukirchen's fantastic
-[gitsum mode](http://leahneukirchen.org/blog/archive/2008/02/introducing-gitsum.html).
+[gitsum mode](https://leahneukirchen.org/blog/archive/2008/02/introducing-gitsum.html).
 Here are some convenient bindings for running git-svn from emacs.
 
 <!--more-->

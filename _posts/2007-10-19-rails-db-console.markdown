@@ -29,7 +29,7 @@ I've been using this trick myself for over 2 years now, but I've only just got a
 You can use `script/plugin` to install the plugin:
 
 ```bash
-% script/plugin install http://rails.sanityinc.com/plugins/db_console/
+% script/plugin install https://rails.sanityinc.com/plugins/db_console/
 ```
 
 Alternatively, you can download a snapshot from the plugin's
@@ -38,7 +38,7 @@ that page has an RSS feed for tracking check-ins). Unpack the snapshot
 tarball under your `RAILS_ROOT/vendor/plugins` directory.
 
 **Update: Edge Rails, as of early May 2008,
-[has `script/dbconsole` instead](http://www.sanityinc.com/articles/rails-gets-new-dbconsole-script),
+[has `script/dbconsole` instead](/articles/rails-gets-new-dbconsole-script),
 which was derived from the code of this plugin**
 
 ### Feedback and contributions welcome
@@ -46,6 +46,6 @@ which was derived from the code of this plugin**
 Not working for you? Want to add support for other database console programs?  Get in touch!
 
 *If you haven't already, why not
-[subscribe to this site's feed](http://www.sanityinc.com/rss.xml) to
+[subscribe to this site's feed](/rss.xml) to
 get the latest news about this plugin and other Rails goodies?*
 

@@ -7,9 +7,9 @@ categories: [Rails, Ruby]
 ---
 
 I'm happy to announce that my
-[db_console plugin](http://www.sanityinc.com/articles/rails-db-console)
+[db_console plugin](/articles/rails-db-console)
 for Rails has just been
-[added to Rails Core](http://github.com/rails/rails/commit/2561732a08ae97fa44706a8eca4db147c4a7c286).
+[added to Rails Core](https://github.com/rails/rails/commit/2561732a08ae97fa44706a8eca4db147c4a7c286).
 
 <!-- more -->
 

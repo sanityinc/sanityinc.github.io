@@ -48,5 +48,5 @@ Tested on OS X; should work on other platforms. Patches are welcome.
 ### Further information
 
 If you found this helpful, you can
-[subscribe](http://www.sanityinc.com/rss.xml) to get more articles about
+[subscribe](/rss.xml) to get more articles about
 Rails and Ruby-related topics and tools.

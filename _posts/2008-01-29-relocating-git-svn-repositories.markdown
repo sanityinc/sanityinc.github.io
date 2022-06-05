@@ -103,7 +103,7 @@ Voilà! The local branch has now been copied and committed into the new git-svn 
 
 ### Wrapped up in a shell script
 
-**Update: [Here's an updated script in Ruby](http://gist.github.com/591602) provided by Ed Ruder, which works with the current git as of Sept. 2010.**
+**Update: [Here's an updated script in Ruby](https://gist.github.com/591602) provided by Ed Ruder, which works with the current git as of Sept. 2010.**
 
 Here's a shell script that I chose to name "git-svn-copy-local-branches":
 

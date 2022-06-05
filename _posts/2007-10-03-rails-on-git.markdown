@@ -6,11 +6,11 @@ comments: true
 categories: [Rails, Git, Subversion]
 ---
 
-[Ruby On Rails](http://www.rubyonrails.org/) has a Subversion
+[Ruby On Rails](https://www.rubyonrails.org/) has a Subversion
 repository with
-[over 7500 commits](http://dev.rubyonrails.org/timeline) at the time
+[over 7500 commits](https://dev.rubyonrails.org/timeline) at the time
 of writing. In this article I show how you can use
-[Git](http://git.or.cz) to have a full local copy of the repository in
+[Git](https://git.or.cz) to have a full local copy of the repository in
 9MB, and use it to track upstream changes.
 
 In a subsequent article I will show you how to use such a repository
@@ -37,7 +37,7 @@ changesets between a subversion repository and a git repository,
 maintaining tag, branch and author information.
 
 After reading a
-[helpful article](http://utsl.gen.nz/talks/git-svn/intro.html) I used
+[helpful article](https://utsl.gen.nz/talks/git-svn/intro.html) I used
 git-svn to make a mirror of the Rails subversion repository. That step
 took many hours, so I've set up my mirror to update itself regularly
 throughout the day, and published it at the following Git URL:
@@ -54,7 +54,7 @@ Make sure you have `git` installed, with `svn` support.  (To follow
 this article, you don't need the `svn` support, but you'll no doubt
 want to play with `git-svn` yourself.)  In most Linuxes, the package
 to install is called "git-core".  On a Mac, if you value your time you
-will use the [MacPorts](http://www.macports.org/) package
+will use the [MacPorts](https://www.macports.org/) package
 with 'svn' variant enabled:
 
 ```bash
@@ -139,7 +139,7 @@ Date:   Thu Aug 10 17:13:55 2006 +0000
 
     Can't use controller_path due to Admin model and Admin::UserController case
 
-    git-svn-id: http://svn.rubyonrails.org/rails/branches/stable@4750 5ecf4fe2-1ee6-0310-87b1-e25e094e27de
+    git-svn-id: https://svn.rubyonrails.org/rails/branches/stable@4750 5ecf4fe2-1ee6-0310-87b1-e25e094e27de
 ...
 ```
 
@@ -178,12 +178,12 @@ describe how to do this.
 
 ### Further reading
 
-- [Git documentation](http://git.or.cz/gitwiki/GitDocumentation)
+- [Git documentation](https://git.or.cz/gitwiki/GitDocumentation)
 - This site -- why not
-    [subscribe to future articles](http://www.sanityinc.com/)?
+    [subscribe to future articles](/)?
 
 **Update: I've set up gitweb, so you can
-[browse the Rails git mirror here](http://git.sanityinc.com/?p=rails.git;a=summary).**
+[browse the Rails git mirror here](https://git.sanityinc.com/?p=rails.git;a=summary).**
 
 **Further update: my mirror will be discontinued now that Rails
-development has [switched to Git](http://github.com/rails/rails)**
+development has [switched to Git](https://github.com/rails/rails)**

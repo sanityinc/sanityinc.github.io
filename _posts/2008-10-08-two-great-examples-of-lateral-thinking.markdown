@@ -32,9 +32,9 @@ other sources, because the data that everyone really wants is locked
 up in Google's enormous index.
 
 In a stroke of utter genius, the SEO consultancy and community
-[SEOmoz](http://seomoz.org/) took venture capital, and then several
+[SEOmoz](https://seomoz.org/) took venture capital, and then several
 months later popped up with
-[its own index of 30 billion web pages](http://www.seomoz.org/blog/announcing-seomozs-index-of-the-web-and-the-launch-of-our-linkscape-tool),
+[its own index of 30 billion web pages](https://www.seomoz.org/blog/announcing-seomozs-index-of-the-web-and-the-launch-of-our-linkscape-tool),
 opening the way for deep SEO analysis that has been impossible up to
 now.
 
