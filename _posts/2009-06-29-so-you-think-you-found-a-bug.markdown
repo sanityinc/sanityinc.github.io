@@ -30,9 +30,9 @@ snippet that shows a fundamental misunderstanding of how the library
 is to be used. I send polite responses, but I'd rather have simply
 been asked for a link to a good tutorial instead.
 
-So here's a question I'd like to request that every programmer
-(whatever his opinion of his own ability) ask himself before reporting
-a bug in a library he's using:
+So here's a question I'd like to request that programmers
+(whatever his opinion of his own ability) ask themselves before reporting
+a bug in a library they are using:
 
 > "Given the number of people using this library, is it at all possible
 > that I could be the first person to discover this bug, or is it more
