@@ -7,8 +7,8 @@ categories: [Emacs, Git, Subversion]
 ---
 
 Interacting with git from within emacs is a pleasure, thanks to the
-official git-mode and Christian Neukirchen's fantastic
-[gitsum mode](http://chneukirchen.org/blog/archive/2008/02/introducing-gitsum.html).
+official git-mode and Leah Neukirchen's fantastic
+[gitsum mode](http://leahneukirchen.org/blog/archive/2008/02/introducing-gitsum.html).
 Here are some convenient bindings for running git-svn from emacs.
 
 <!--more-->
@@ -39,7 +39,7 @@ git-status), and you'll get to choose between `rebase`, `dcommit` and
 hyperlinked.
 
 At some later point I'd like to turn this into a full-fledged git-svn
-mode, and hook it into git-status-mode, as Christian has done with
+mode, and hook it into git-status-mode, as Leah has done with
 gitsum.
 
 Watch this space!
