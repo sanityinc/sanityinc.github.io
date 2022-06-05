@@ -18,7 +18,7 @@ For years we assumed that working together on carefully versioned sets
 of files requires a central server to keep everyone on the same
 track. Then along came arch, darcs, mercurial, bazaar, git and others
 -- now it seems like a god-given right that every developer should be
-able to independently commit his source code changes and create
+able to independently commit their source code changes and create
 branches, and the "central repository" has changed from a technical
 necessity to a useful convention.
 
