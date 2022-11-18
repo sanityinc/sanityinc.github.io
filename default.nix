@@ -1,6 +1,6 @@
-{ pkgs ? import ./pkgs.nix
+{ bundlerEnv
+, lib
 }:
-with pkgs;
 bundlerEnv {
   name = "sanityinc";
   #ruby = ruby_2_2;
