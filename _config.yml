@@ -79,3 +79,6 @@ exclude:
   - pkgs.nix
   - nix
   - push
+
+include:
+  - .well-known
