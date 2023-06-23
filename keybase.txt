@@ -1,0 +1,59 @@
+layout: none
+permalink: .well-known/keybase.txt
+
+==================================================================
+https://keybase.io/sanityinc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sanityinc.com
+  * I am sanityinc (https://keybase.io/sanityinc) on keybase.
+  * I have a public key ASD6Zb31etK_0lSccFnXOXQKEk2S1137StrRR5dfWAn4Jgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fa65bdf57ad2bfd2549c7059d739740a124d92d75dfb4adad147975f5809f8260a",
+      "host": "keybase.io",
+      "kid": "0120fa65bdf57ad2bfd2549c7059d739740a124d92d75dfb4adad147975f5809f8260a",
+      "uid": "33e9b31de46df504e7488a095ca80119",
+      "username": "sanityinc"
+    },
+    "merkle_root": {
+      "ctime": 1687523848,
+      "hash": "abc25fcfc4b6734e346d6503a9b38b26ae8ab71678b2d581ff67c187cf16b2e892a260e0dfdd9ac3f0efa42706f5998e681fbd1ddb1416316fb3f857cf839d28",
+      "hash_meta": "2881c2fd8dcdb4c735a2f0d38c7336eeb9ce1ea764ea7a13872170bac71ff974",
+      "seqno": 24600449
+    },
+    "service": {
+      "entropy": "OoJKsFuyH24j6ZpBXn1HTkwO",
+      "hostname": "sanityinc.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1687523908,
+  "expire_in": 504576000,
+  "prev": "53651fddb72eff22bd856b8572faf286b5b13c4e83fcdba8fd12e4a786ac1960",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+mW99XrSv9JUnHBZ1zl0ChJNktdd+0ra0UeXX1gJ+CYKp3BheWxvYWTESpcCB8QgU2Uf3bcu/yK9hWuFcvryhrWxPE6D/Nuo/RLkp4asGWDEIL499XZUADNO0MzR4LEhbN3/OhiLqst4uw3HLuCPuxh5AgHCo3NpZ8RAJd8ztrOBrpJx9W6mm/0+0D/fIGkiOG6lkPOWambE3q14P+vrlnJct67/od0uoouFsbyAq6jRneJMX/bc8Vf0BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILcIEDmVQz7lunVQV0PiDIUHNmCqxQn0f0SwL6BwrECvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sanityinc
+
+==================================================================
