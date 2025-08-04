@@ -38,7 +38,6 @@ show_excerpts: true
   #   - title: About
   #     url: "/about"
 
-google_analytics: "UA-67727-4"
 disqus:
   shortname: sanityinc
 
