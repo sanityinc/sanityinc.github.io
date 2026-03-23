@@ -13,6 +13,8 @@ gem "jekyll", "~> 4.3.1"
 # gem "github-pages", group: :jekyll_plugins
 
 gem "jekyll-theme-hydeout", require: "hydeout"
+gem "csv"
+gem "base64"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

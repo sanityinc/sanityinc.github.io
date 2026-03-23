@@ -9,7 +9,7 @@ bundlerEnv {
 
   meta = with lib;
     {
-      description = "Ruby on Rails site";
+      description = "Jekyll site";
       platforms = platforms.unix;
     };
 }
